@@ -1,0 +1,379 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+}
+
+.container{
+    max-width: 1196.01px;
+    margin: 0 auto;
+}
+
+.header{
+    margin-top: 124px;
+    margin: 142px 0 80px 60px;
+}
+
+.nav{
+    display: flex;
+}
+
+.h1{
+    padding: 20px;
+}
+
+ul{
+    display: flex;
+    gap: 25px;
+    margin-left: 651px;
+    padding: 20px;
+}
+
+.h-first{
+    width: 596px;
+    height: 119px;
+    font-family: "Roboto", sans-serif;
+    font-size: 50px;
+    font-weight: 900;
+    margin-top: 189px;
+}
+
+.button{
+    width: 179px;
+    height: 53px;
+    border-radius: 7px;
+    background: linear-gradient(95.2deg, #B90160 2.23%, #2E3192 99.51%);
+    margin-top: 58px;
+
+}
+
+.big{
+    display: flex;
+}
+
+.h2{
+    width: 603px;
+    height: 49px;
+    font-size: 50px;
+    font-weight: 400;
+    margin: 0 auto;
+}
+
+.span{
+    background: linear-gradient(95.2deg, #B90160 2.23%, #2E3192 99.51%);
+
+}
+
+.section{
+    background-image: url(img/для\ фона.png);
+}
+
+.big-section{
+    display: flex;
+    justify-content: space-between;
+}
+
+.h-second{
+    width: 289px;
+    height: 49px;
+    font-size: 36px;
+    font-weight: 700;
+    color: black;
+    padding: 20px;
+}
+
+.eva{
+    max-width: 289px;
+    height: 106px;
+    font-size: 14px;
+    font-weight: 300;
+    padding-top: 15px;
+    padding-left: 40px;
+}
+
+.under{
+    width: 344px;
+    height: 414px;
+    border-radius: 9px;
+    background-color: #FFFFFF;
+    box-shadow: 0 4px 10px rgba(255, 105, 180, 0.8);
+    margin-top: 120px;
+}
+
+.testimonials {
+    display: flex;
+    justify-content: space-between;
+    margin: 50px 0;
+}
+
+.testimonial {
+    background: #fff;
+    border-radius: 15px;
+    padding: 20px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    width: 30%;
+    position: relative;
+    margin-top: 100px;
+    
+   
+}
+
+.big-test{
+    background-image: url(img/Rectangle\ 6.png);
+    max-width: 1400px;
+    height: 357px;
+    margin: 0 auto;
+
+}
+
+.avatar {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    overflow: hidden;
+    position: absolute;
+    top: -25px;
+    left: 20px;
+    margin-left: 150px;
+
+}
+
+.avatar img {
+    width: 100%;
+    height: auto;
+}
+
+blockquote {
+    margin: 40px 0 0 0;
+    font-style: italic;
+    font-size: 14px;
+}
+
+cite {
+    display: block;
+    margin-top: 10px;
+    font-weight: bold;
+    text-align: right;
+}
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    background: #FFFFFF;
+    margin-top: 250px;
+    height: 150px
+}
+
+.p-footer{
+    width: 224px;
+    height: 91px;
+
+
+}
+
+
+
+@media(max-width:768px){
+    .header{
+        margin: 131px 0 20px 66px;
+    }
+
+    ul{
+        display: none;
+    }
+
+    .h-first{
+        font-size: 40px;
+        font-weight: 900;
+        width: 323px;
+        height: 131px;
+    }
+
+    .h2{
+        margin-left: 168px;
+    }
+
+    .big-section{
+        flex-wrap: wrap;
+        display: flex;
+        justify-content: center;
+        margin-left: 168px;
+
+    }
+
+    .file{
+        width: 626.81px;
+        height: 189.98px;  
+    }
+
+    .kov{
+        width: 626.81px;
+        height: 189.98px;
+    }
+
+    .image4{
+        width: 626.81px;
+        height: 189.98px;
+
+
+    }
+
+    .under{
+        width: 626px;
+        height: 325px;
+        border-radius: 9px;
+    }
+
+    .eva{
+        max-width: 499.03px;
+        height: 83.21px;
+
+    }
+
+    .testimonials{
+        flex-wrap: wrap;
+        margin-left: 30px;
+    }
+
+    .big-test{
+        max-width: 769px;
+        height: 948px;
+        margin-left: 150px;
+        background-image: url(img/6.png);
+    }
+
+    .testimonial{
+        width: 536px;
+        height: 187px;
+        border-radius: 9px;
+
+    }
+
+    .footer {
+        display: flex;
+        justify-content: space-between;
+        padding: 20px;
+        background: #FFFFFF;
+        margin-top: 250px;
+        height: 150px
+    }
+
+    .socials{
+        background-image: url(img/fon\ 2.png);
+    }
+    
+    .p-footer{
+        width: 224px;
+        height: 91px;
+        
+    
+    }
+}
+
+@media(max-width:576px){
+    .header{
+        margin: 131px 0 20px 66px;
+        background-image: url(img/подложка\ 1.png);
+    }
+
+    ul{
+        display: none;
+    }
+
+    .h1{
+        margin-left: -10px;
+    }
+
+    .vector{
+        margin-left: 150px;
+    }
+
+    .kovrik{
+        display: none;
+    }
+
+    .h-first{
+        width: 194px;
+        height: 75px;
+        font-size: 25px;
+        font-weight: 900;
+        color: black;
+        margin-top: 40px;
+        margin-left: 150px;
+    }
+
+    .button{
+        width: 93px;
+        height: 28px;
+        margin-left: 180px;
+    }
+
+    .under{
+        width: 279px;
+        height: 363px;
+    }
+
+    .image4{
+        width: 279px;
+        height: 182.52px;
+
+
+    }
+
+    .file{
+        width: 279px;
+        height: 182.52px;
+    }
+
+    .kov{
+        width: 279px;
+        height: 182.52px;
+    }
+
+    .big-section{
+        
+    }
+
+    .testimonials{
+        flex-wrap: wrap;
+        margin-left: 100px;
+    }
+
+    .big-test{
+        width: 321px;
+        height: 948px;
+        background-image: url(img/6.png);
+    }
+
+    .testimonial{
+        width: 267px;
+        height: 271px;
+        margin-top: 40px;
+        margin-left:-70px;
+
+    }
+
+    .avatar{
+        margin-left: 80px;
+    }
+
+    .footer {
+        display: flex;
+        justify-content: space-between;
+        padding: 20px;
+        background: #FFFFFF;
+        margin-top: 250px;
+        width: 321px;
+        height: 317px;
+        gap: 40px;
+        
+    }
+    .socials{
+        display:none;
+    }
+
+}
